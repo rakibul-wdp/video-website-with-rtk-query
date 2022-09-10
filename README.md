@@ -35,3 +35,17 @@
 ### Create first Query (8.4)
 
 #### Getting videos on home page
+
+- api slice file have endpoint and in endpoint take callback function and in callback function also take query key value and it's value is callback function with dynamic params like this...
+
+```
+endpoints: (builder) => ({
+    getVideos: builder.query({
+      query: () => '/videos',
+    }),
+  }),
+```
+
+- apiSlice give some hook in this time we export useGetVideosQuery (it just like custom hook).
+- We just call hook in videos component and conditionally pass data in video component with map function.
+- Receive as a props in video component and show it dynamically.
