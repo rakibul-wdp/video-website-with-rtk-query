@@ -18,3 +18,8 @@
 ### Project and Server setup (8.2)
 
 #### Setup React project and json-server
+
+- Convert html template to react component.
+- Add server in this project.
+- In this website have home video description page and also add video or edit video page.
+- For related video showing we use tag by video title.
