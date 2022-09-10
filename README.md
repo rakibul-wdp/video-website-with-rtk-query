@@ -23,3 +23,7 @@
 - Add server in this project.
 - In this website have home video description page and also add video or edit video page.
 - For related video showing we use tag by video title.
+
+### Create API Slice (8.3)
+
+#### Configure the store
