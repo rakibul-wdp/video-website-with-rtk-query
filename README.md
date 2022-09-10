@@ -31,3 +31,7 @@
 - Create api slice by createApi and createApi have object and in this object have reducerPath baseQuery and endpoints.
 - baseQuery have fetchBaseQuery and it take url.
 - apiSlice have reducer and this reducer included in store file like `[apiSlice.reducerPath]: apiSlice.reducer,` and also add middleware like default middleware.
+
+### Create first Query (8.4)
+
+#### Getting videos on home page
