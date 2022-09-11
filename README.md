@@ -57,3 +57,7 @@ endpoints: (builder) => ({
 - Add another endpoint in apiSlice for dynamic route.
 - In Video component we use single video hook and also pass videoId for dynamic url.
 - And conditionally show every video with Player and Description component.
+
+### API Query - Get related videos (8.6)
+
+#### Getting related videos from server API
