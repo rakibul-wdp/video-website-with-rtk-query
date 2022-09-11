@@ -61,3 +61,7 @@ endpoints: (builder) => ({
 ### API Query - Get related videos (8.6)
 
 #### Getting related videos from server API
+
+- Create another endpoint like getRelatedVideo and this endpoint create queryString for related video showing.
+- Show related video by RelatedVideo component with conditionally.
+- So, related video show beside of main video by create custom query string like url or params.
