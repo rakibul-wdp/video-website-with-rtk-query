@@ -118,3 +118,7 @@ addVideo: builder.mutation({
 invalidatesTags: ['Videos'],
 }),
 ```
+
+### Edit Video and revalidate (8.10)
+
+#### Mutation and automated cache revalidation
