@@ -76,3 +76,18 @@ endpoints: (builder) => ({
 ### Adding Video (8.8)
 
 #### Mutation - Add video to server API
+
+- For adding video we create another endpoint like
+
+```
+addVideo: builder.mutation({
+      query: (data) => ({
+        url: '/videos',
+        method: 'POST',
+        body: data,
+      }),
+    }),
+```
+
+- We use mutation in add Form component little bit different way. And also, we take state for every value.
+- Create handler for form and pass every data in addVideo.
