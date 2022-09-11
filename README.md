@@ -130,3 +130,7 @@ invalidatesTags: ['Videos'],
 - video 2
 - cache 1 - related videos
 - cache 2 - single video info
+
+- Rearrange edit Form for dynamic and also added functionality.
+- Create endpoint with PATCH method for edit video.
+- And finally and some extra functionality in apiSlice file for necessary fetching data where needed.
