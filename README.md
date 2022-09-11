@@ -91,3 +91,7 @@ addVideo: builder.mutation({
 
 - We use mutation in add Form component little bit different way. And also, we take state for every value.
 - Create handler for form and pass every data in addVideo.
+
+### Cache Behavior (8.9)
+
+#### Automated Re-fetching

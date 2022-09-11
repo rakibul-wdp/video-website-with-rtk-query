@@ -4,13 +4,7 @@ import VideoLoader from '../ui/loaders/VideoLoader';
 import Error from '../ui/Error';
 
 export default function Videos() {
-  const {
-    data: videos,
-    isLoading,
-    isError,
-  } = useGetVideosQuery(undefined, {
-    pollingInterval: 3000,
-  });
+  const { data: videos, isLoading, isError } = useGetVideosQuery();
 
   // decide what to render
   let content = null;
