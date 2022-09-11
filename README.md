@@ -95,3 +95,26 @@ addVideo: builder.mutation({
 ### Cache Behavior (8.9)
 
 #### Automated Re-fetching
+
+- We just refetch or reload our videos array or list by adding some keyword.
+- We use providesTags in getVideo section, before endpoints use tagTypes and lastly use invalidatesTags keyword.
+- Actually we create some kind of tag that hamper inside of rtk.
+
+```
+tagTypes: ['Videos'],
+
+getVideos: builder.query({
+  query: () => '/videos',
+  keepUnusedDataFor: 600,
+  providesTags: ['Videos'],
+}),
+
+addVideo: builder.mutation({
+  query: (data) => ({
+    url: '/videos',
+    method: 'POST',
+    body: data,
+}),
+invalidatesTags: ['Videos'],
+}),
+```
