@@ -122,3 +122,11 @@ invalidatesTags: ['Videos'],
 ### Edit Video and revalidate (8.10)
 
 #### Mutation and automated cache revalidation
+
+- video 1
+- cache 1 - related videos
+- cache 2 - single video info
+
+- video 2
+- cache 1 - related videos
+- cache 2 - single video info
