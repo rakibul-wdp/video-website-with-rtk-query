@@ -138,3 +138,7 @@ invalidatesTags: ['Videos'],
 ### Delete Video and Revalidate (8.11)
 
 #### Mutation and automated cache revalidation
+
+- Create delete endpoint for delete video.
+- Use this delete functionality in description component with delete section.
+- Also use extra functionality for revalidation like if we delete a video then it delete and redirect in home page.
