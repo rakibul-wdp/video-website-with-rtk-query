@@ -49,3 +49,7 @@ endpoints: (builder) => ({
 - apiSlice give some hook in this time we export useGetVideosQuery (it just like custom hook).
 - We just call hook in videos component and conditionally pass data in video component with map function.
 - Receive as a props in video component and show it dynamically.
+
+### API Query - Get single video (8.5)
+
+#### Getting single video from server API
