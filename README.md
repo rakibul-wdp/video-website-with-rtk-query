@@ -65,3 +65,10 @@ endpoints: (builder) => ({
 - Create another endpoint like getRelatedVideo and this endpoint create queryString for related video showing.
 - Show related video by RelatedVideo component with conditionally.
 - So, related video show beside of main video by create custom query string like url or params.
+
+### Advanced Configuration (8.7)
+
+#### Caching, refetch, request cancelling and optimistic update
+
+- In this class we see some rtk query topic that are awesome and increase user experience.
+- keepUnusedDataFor, refetchOnFocus, refetchOnReconnect, refetchOnMountOrArgChange, skip, pollingInterval, etc.
