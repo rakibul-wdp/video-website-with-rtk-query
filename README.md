@@ -134,3 +134,7 @@ invalidatesTags: ['Videos'],
 - Rearrange edit Form for dynamic and also added functionality.
 - Create endpoint with PATCH method for edit video.
 - And finally and some extra functionality in apiSlice file for necessary fetching data where needed.
+
+### Delete Video and Revalidate (8.11)
+
+#### Mutation and automated cache revalidation
