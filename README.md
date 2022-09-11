@@ -53,3 +53,7 @@ endpoints: (builder) => ({
 ### API Query - Get single video (8.5)
 
 #### Getting single video from server API
+
+- Add another endpoint in apiSlice for dynamic route.
+- In Video component we use single video hook and also pass videoId for dynamic url.
+- And conditionally show every video with Player and Description component.
