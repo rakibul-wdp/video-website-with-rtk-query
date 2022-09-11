@@ -72,3 +72,7 @@ endpoints: (builder) => ({
 
 - In this class we see some rtk query topic that are awesome and increase user experience.
 - keepUnusedDataFor, refetchOnFocus, refetchOnReconnect, refetchOnMountOrArgChange, skip, pollingInterval, etc.
+
+### Adding Video (8.8)
+
+#### Mutation - Add video to server API
